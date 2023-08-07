@@ -20,9 +20,11 @@ def test_TC_02():
     #  Title Validation
 
     if driver.title == 'OrangeHRM':
-        print("Title Validation - Success")
+        assert True
+        print("Title - True")
     else:
-        print("Title Validation - Failed")
+        print("Title - False")
+        assert False
 
     # Main Menu_Validation
 
